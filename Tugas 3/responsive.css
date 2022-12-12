@@ -1,0 +1,179 @@
+@media screen and (min-width: 1366px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .tentang-col-1 {
+    flex-basis: 35%;
+  }
+
+  .tentang-col-1 img {
+    width: 80%;
+    border-radius: 15px;
+  }
+  .tentang-col-2 {
+    flex-basis: 60%;
+  }
+
+  .tentang-col-2 h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .tentang-col-2 table {
+    margin-bottom: 40px;
+    line-height: 30px;
+  }
+
+  .tentang-col-2 p {
+    color: #a5c9ca;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+
+  .education {
+    padding: 20px 35px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .education h2,
+  .kerja h2 {
+    color: white;
+    font-size: 40px;
+    width: 1130px;
+    margin: 10px auto 40px auto;
+    text-align: center;
+  }
+
+  .kerja {
+    background: #101010;
+    padding: 20px 35px;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .kerja table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  header {
+    flex-wrap: wrap;
+    max-width: 425px;
+  }
+
+  .headerText {
+    margin-top: 20%;
+    font-size: 13px;
+  }
+
+  .headerText h1 {
+    margin-top: 20%;
+    font-size: 35px;
+  }
+
+  .headerText p {
+    margin-top: 30px;
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .video {
+    background: #101010;
+    width: 425px;
+    padding: 40px 0px;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  .video h2 {
+    color: white;
+    font-size: 40px;
+    width: 200px;
+    margin: 10px auto 40px auto;
+    text-align: center;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .education h2,
+  .kerja h2 {
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    margin: 10px auto 40px auto;
+    text-align: center;
+  }
+
+  .kerja {
+    background: #101010;
+    padding: 20px 35px;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .kerja table {
+    margin: 0;
+  }
+
+  .kerja table,
+  .kerja td,
+  .kerja tr {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .tentang {
+    padding: 0;
+  }
+  .tentang-col-1 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .tentang-col-1 img {
+    width: 30%;
+    border-radius: 15px;
+  }
+  .tentang-col-2 {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .tentang-col-2 p {
+    color: #a5c9ca;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 12px;
+  }
+  .contactRight form {
+    width: 90%;
+  }
+}
