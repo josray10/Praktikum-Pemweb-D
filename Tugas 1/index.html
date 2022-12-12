@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/icon.png" />
+    <style>
+      #kerja table,
+      #kerja th,
+      #kerja td {
+        padding: 5px;
+        border: 1px solid black;
+      }
+
+      #kerja table {
+        border-collapse: separate;
+        border-spacing: 5px;
+      } /* cellspacing="5" */
+      #kerja table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="assets/figure1.png" alt="foto profil" width="200" />
+      <h1>Hi!, I am Jossy Raya Gopasda Saragih</h1>
+
+      <p>
+        I am 5th semester informatics student in Institut Teknologi Sumatera.
+        <br />
+        I am a person who is curious about new things. <wbr /> I am also active
+        in doing work. <br />
+        My weakness is that it takes a long time to get along with friends.
+      </p>
+    </header>
+    <hr />
+    <aside>
+      <nav>
+        <ul>
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#experiences">Experiences</a></li>
+          <li><a href="#contactMe">Contact Me</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main style="display: grid; grid-template-columns: 2">
+      <section>
+        <h2 id="tentang">About Me</h2>
+        <table>
+          <tr>
+            <td>Name</td>
+            <td>:</td>
+            <td>Jossy Raya Gopasda Saragih</td>
+          </tr>
+          <tr>
+            <td>Born</td>
+            <td>:</td>
+            <td>09 October 2002</td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>:</td>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <td>Religion</td>
+            <td>:</td>
+            <td>Christian</td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>:</td>
+            <td>
+              Lamban Kost, Gg. Kopi 1, Terusan Ryacuda Street, Jati Agung,
+              Lampung Selatan
+            </td>
+          </tr>
+        </table>
+        <figure>
+          <video
+            width="430"
+            height="240"
+            controls
+            poster="assets/poster.jpg"
+            src="assets/El_Delizio_Macaroni_Balado.mp4"
+            autoplay
+          ></video>
+          <br />
+          <br />
+          <figcaption>Project Video Saya</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2 id="Education">Education</h2>
+        <ul style="list-style-type: none; line-height: 200%">
+          <li>2008 - 2014 SD Santo Thomas 2 Medan</li>
+          <li>2014 - 2017 SMP Santo Thomas 3 Medan</li>
+          <li>2017 - 2020 SMAN 4 Medan</li>
+        </ul>
+      </section>
+      <section id="kerja">
+        <h2>Experiences</h2>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2">No</th>
+              <th rowspan="2">Posisi</th>
+              <th rowspan="2">Tempat</th>
+              <th colspan="2">Tahun</th>
+            </tr>
+            <tr>
+              <th>mulai</th>
+              <th>selesai</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Book Editor of 11 Science 2</td>
+              <td>SMA Negeri 4 Medan</td>
+              <td>2019</td>
+              <td>2020</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Math tutor assistant TPB 52</td>
+              <td>Institut Teknologi Sumatera</td>
+              <td>2021</td>
+              <td>2022</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Part of IT Department PMK ITERA</td>
+              <td>Institut Teknologi Sumatera</td>
+              <td>2022</td>
+              <td>2023</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="hubungi">
+        <h2>Contact Me</h2>
+        <div class="inputForm">
+          <form action="#hasilinput" method="get">
+            <div class="inputNama">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="inputemail">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="inputemessage">
+              <label for="message">Message:</label>
+              <input type="text" name="message" id="message" />
+            </div>
+            <div>
+              <p>Have you watched my video?</p>
+              <input type="radio" name="sudah" id="sudah" />
+              <label for="sudah">Yes</label>
+              <br />
+              <input type="radio" name="belum" id="belum" />
+              <label for="belum">Not yet</label>
+            </div>
+            <br />
+            <div>
+              <p>Check this box if you already follow on of my social media</p>
+              <input
+                type="checkbox"
+                name="youtubechannel"
+                id="youtubechannel"
+              />
+              <label for="youtubechannel"
+                ><a
+                  href="https://www.youtube.com/channel/UCP-IEXIKkFC4YH5ReQEoUTw"
+                  >Youtube</a
+                ></label
+              ><br />
+              <input type="checkbox" name="github" id="github" />
+              <label for="github"
+                ><a href="https://github.com/josray10">Github</a></label
+              ><br />
+              <input type="checkbox" name="linkedin" id="linkedin" />
+              <label for="linkedin"
+                ><a href="https://www.linkedin.com/in/jossy-saragih/"
+                  >LinkedIn</a
+                ></label
+              >
+            </div>
+            <br />
+            <div class="sendButton">
+              <input type="submit" value="Send" />
+            </div>
+          </form>
+        </div>
+      </section>
+      <hr />
+      <footer style="text-align: center">
+        Copyright Jossy Raya Gopasda Saragih
+      </footer>
+    </main>
+  </body>
+</html>
